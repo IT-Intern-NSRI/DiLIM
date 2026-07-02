@@ -1,0 +1,15 @@
+/**
+ * PURE FRONTEND FILE - plain description, not a function skeleton.
+ *
+ * Stylesheet controlling the visual appearance of the tab interface
+ * rendered by single-manual_document.php:
+ * - Styling for the row of tab buttons: horizontal layout, spacing,
+ *   borders, and a clearly highlighted "active" state so it is obvious
+ *   which section is currently open.
+ * - Styling for the section content panels: padding, body-text
+ *   typography, spacing around embedded images and lists.
+ * - Styling for the signature block at the bottom of the page: a
+ *   simple grid or list layout showing each signatory's name, title,
+ *   and signature image.
+ * - Purely visual rules - no logic in this file.
+ */
