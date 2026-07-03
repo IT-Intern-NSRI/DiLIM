@@ -1,15 +1,212 @@
 /**
- * PURE FRONTEND FILE - plain description, not a function skeleton.
+ * Styles for the Lab Manual Digitization theme additions:
+ * single-manual_document.php's tab interface + signature block, and
+ * archive-manual_document.php's document listing.
  *
- * Stylesheet controlling the visual appearance of the tab interface
- * rendered by single-manual_document.php:
- * - Styling for the row of tab buttons: horizontal layout, spacing,
- *   borders, and a clearly highlighted "active" state so it is obvious
- *   which section is currently open.
- * - Styling for the section content panels: padding, body-text
- *   typography, spacing around embedded images and lists.
- * - Styling for the signature block at the bottom of the page: a
- *   simple grid or list layout showing each signatory's name, title,
- *   and signature image.
- * - Purely visual rules - no logic in this file.
+ * Class names here match single-manual_document.php / tabs.js exactly -
+ * see those files if you're renaming anything.
  */
+
+/* ---------- Shared layout ---------- */
+
+.manual-document,
+.manual-archive {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 2rem 1.25rem 4rem;
+}
+
+.manual-document__title,
+.manual-archive__header h1 {
+	margin-bottom: 0.25rem;
+	line-height: 1.2;
+}
+
+.manual-document__meta,
+.manual-archive__meta {
+	color: #5f6368;
+	font-size: 0.95rem;
+	margin-top: 0;
+}
+
+.manual-document__meta-sep,
+.manual-archive__meta-sep {
+	margin: 0 0.4em;
+}
+
+/* ---------- Tab row ---------- */
+
+.tab-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+	border-bottom: 1px solid #dcdcdc;
+	margin: 1.75rem 0 0;
+	padding: 0;
+}
+
+.tab-button {
+	appearance: none;
+	background: transparent;
+	border: 1px solid transparent;
+	border-bottom: none;
+	border-radius: 6px 6px 0 0;
+	color: #444;
+	cursor: pointer;
+	font-size: 0.95rem;
+	padding: 0.6rem 1rem;
+	position: relative;
+	top: 1px;
+	transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.tab-button:hover {
+	background-color: #f5f5f5;
+	color: #111;
+}
+
+.tab-button:focus-visible {
+	outline: 2px solid #2271b1;
+	outline-offset: 2px;
+}
+
+.tab-button.active {
+	background-color: #fff;
+	border-color: #dcdcdc;
+	border-bottom-color: #fff;
+	color: #111;
+	font-weight: 600;
+}
+
+/* ---------- Panels ---------- */
+
+.manual-document__panels {
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	padding: 1.5rem;
+}
+
+.tab-panel {
+	display: none;
+}
+
+.tab-panel__title {
+	margin-top: 0;
+}
+
+.tab-panel__body {
+	line-height: 1.6;
+}
+
+.tab-panel__body img {
+	max-width: 100%;
+	height: auto;
+}
+
+.manual-document__empty,
+.manual-archive__empty {
+	color: #5f6368;
+	font-style: italic;
+	margin-top: 1.75rem;
+}
+
+/* ---------- Signature block ---------- */
+
+.signature-block {
+	margin-top: 3rem;
+	border-top: 1px solid #dcdcdc;
+	padding-top: 1.5rem;
+}
+
+.signature-block__title {
+	margin-top: 0;
+}
+
+.signature-block__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 1.5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.signatory {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.signatory__image img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+}
+
+.signatory__name {
+	font-weight: 600;
+	margin: 0;
+}
+
+.signatory__title {
+	color: #5f6368;
+	margin: 0;
+}
+
+/* ---------- Archive listing ---------- */
+
+.manual-archive__group {
+	margin-top: 2.5rem;
+}
+
+.manual-archive__group-title {
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 0.4rem;
+}
+
+.manual-archive__list {
+	list-style: none;
+	margin: 1rem 0 0;
+	padding: 0;
+}
+
+.manual-archive__item {
+	align-items: baseline;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1rem;
+	justify-content: space-between;
+	padding: 0.85rem 0;
+}
+
+.manual-archive__link {
+	text-decoration: none;
+}
+
+.manual-archive__title {
+	color: #1a0dab;
+	font-size: 1.05rem;
+}
+
+.manual-archive__link:hover .manual-archive__title {
+	text-decoration: underline;
+}
+
+.manual-archive__meta {
+	white-space: nowrap;
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 600px) {
+	.tab-row {
+		overflow-x: auto;
+		flex-wrap: nowrap;
+	}
+
+	.manual-archive__item {
+		flex-direction: column;
+	}
+}
