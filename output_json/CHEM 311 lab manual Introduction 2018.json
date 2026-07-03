@@ -1,0 +1,1170 @@
+{
+  "source_pdf_filename": "CHEM 311 lab manual Introduction 2018.pdf",
+  "doc_title": "CHEM 311 lab manual Introduction 2018",
+  "doc_number": null,
+  "sections": [
+    {
+      "title": "CHEM 311",
+      "body_html": "",
+      "order": 0
+    },
+    {
+      "title": "ENVIRONMENTAL CHEMICAL",
+      "body_html": "",
+      "order": 1
+    },
+    {
+      "title": "ANALYSIS",
+      "body_html": "",
+      "order": 2
+    },
+    {
+      "title": "LABORATORY MANUAL",
+      "body_html": "",
+      "order": 3
+    },
+    {
+      "title": "Prepared by Dr. Erik Krogh, Dr. Chris Gill,",
+      "body_html": "",
+      "order": 4
+    },
+    {
+      "title": "Shelley Gellein, and Peter Diamente",
+      "body_html": "",
+      "order": 5
+    },
+    {
+      "title": "Department of Chemistry, 2018",
+      "body_html": "",
+      "order": 6
+    },
+    {
+      "title": "P",
+      "body_html": "",
+      "order": 7
+    },
+    {
+      "title": "OOR",
+      "body_html": "",
+      "order": 8
+    },
+    {
+      "title": "accuracy",
+      "body_html": "",
+      "order": 9
+    },
+    {
+      "title": "P",
+      "body_html": "",
+      "order": 10
+    },
+    {
+      "title": "OOR",
+      "body_html": "",
+      "order": 11
+    },
+    {
+      "title": "precision",
+      "body_html": "",
+      "order": 12
+    },
+    {
+      "title": "G",
+      "body_html": "",
+      "order": 13
+    },
+    {
+      "title": "OOD",
+      "body_html": "",
+      "order": 14
+    },
+    {
+      "title": "accuracy",
+      "body_html": "",
+      "order": 15
+    },
+    {
+      "title": "P",
+      "body_html": "",
+      "order": 16
+    },
+    {
+      "title": "OOR",
+      "body_html": "",
+      "order": 17
+    },
+    {
+      "title": "precision",
+      "body_html": "",
+      "order": 18
+    },
+    {
+      "title": "P",
+      "body_html": "",
+      "order": 19
+    },
+    {
+      "title": "OOR",
+      "body_html": "",
+      "order": 20
+    },
+    {
+      "title": "accuracy",
+      "body_html": "",
+      "order": 21
+    },
+    {
+      "title": "G",
+      "body_html": "",
+      "order": 22
+    },
+    {
+      "title": "OOD",
+      "body_html": "",
+      "order": 23
+    },
+    {
+      "title": "precision",
+      "body_html": "",
+      "order": 24
+    },
+    {
+      "title": "G",
+      "body_html": "",
+      "order": 25
+    },
+    {
+      "title": "OOD",
+      "body_html": "",
+      "order": 26
+    },
+    {
+      "title": "accuracy",
+      "body_html": "",
+      "order": 27
+    },
+    {
+      "title": "G",
+      "body_html": "",
+      "order": 28
+    },
+    {
+      "title": "OOD",
+      "body_html": "",
+      "order": 29
+    },
+    {
+      "title": "precision",
+      "body_html": "<p>ii</p><p>ENVIRONMENTAL CHEMICAL ANALYSIS</p><p>2018 LAB SCHEDULE CHEMISTRY 311</p><p>Sept. 7</p><p>th</p>",
+      "order": 30
+    },
+    {
+      "title": "Introduction to a Chemical Analysis Laboratory:",
+      "body_html": "<p>Good Laboratory Practices, Data</p><p>Analysis, Technical Reports and Full Lab Reports.</p><p>Sept. 14</p><p>th</p>",
+      "order": 31
+    },
+    {
+      "title": "Introduction to Metering Devices",
+      "body_html": "<p>(pH, Turbidity, Conductivity and DO)</p><p>Calibration, Precision and Data Reporting</p><p>Data Tables</p>",
+      "order": 32
+    },
+    {
+      "title": "Due: Sept. 20",
+      "body_html": "",
+      "order": 33
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Sept. 21</p><p>st</p>",
+      "order": 34
+    },
+    {
+      "title": "Field Trip",
+      "body_html": "<p>\u2013 TBA</p><p>Sample Collection/Field Analysis</p><p>Assignment: Principle of Method, Data and Results</p>",
+      "order": 35
+    },
+    {
+      "title": "Due: Oct. 4",
+      "body_html": "",
+      "order": 36
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Sept. 28</p><p>th</p>",
+      "order": 37
+    },
+    {
+      "title": "Alkalinity of Natural Waters",
+      "body_html": "<p>Volumetric Analysis</p><p>Technical Report - Data, Calculations and Results</p>",
+      "order": 38
+    },
+    {
+      "title": "Due: Sept. 27",
+      "body_html": "",
+      "order": 39
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Oct. 5th</p>",
+      "order": 40
+    },
+    {
+      "title": "Carbon Dioxide in Air",
+      "body_html": "<p>Gravimetric Analysis and Back Titration</p><p>Technical Report - Data, Results and Discussion</p>",
+      "order": 41
+    },
+    {
+      "title": "Due: Oct. 11",
+      "body_html": "",
+      "order": 42
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Oct. 12</p><p>th</p>",
+      "order": 43
+    },
+    {
+      "title": "Dissolved Oxygen in Surface Waters",
+      "body_html": "<p>Winkler Titration (azide modification)</p><p>Full Lab Report</p>",
+      "order": 44
+    },
+    {
+      "title": "Due: Oct. 23",
+      "body_html": "",
+      "order": 45
+    },
+    {
+      "title": "rd",
+      "body_html": "<p>Oct. 19</p><p>th</p>",
+      "order": 46
+    },
+    {
+      "title": "Nitrites/Nitrates in Drinking Water",
+      "body_html": "<p>Spectrophotometry/Calibration Curves</p><p>Technical Report \u2013 Data, Calculations, and Results</p>",
+      "order": 47
+    },
+    {
+      "title": "Due: Oct. 30",
+      "body_html": "",
+      "order": 48
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Oct. 26</p><p>th</p>",
+      "order": 49
+    },
+    {
+      "title": "Ortho-Phosphates in Wastewater",
+      "body_html": "<p>Spectrophotometry/Standard Additions</p><p>Full Lab Report</p>",
+      "order": 50
+    },
+    {
+      "title": "Due: Nov. 6",
+      "body_html": "",
+      "order": 51
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Nov 2</p><p>nd</p>",
+      "order": 52
+    },
+    {
+      "title": "Fluoride in Groundwater and Toothpaste",
+      "body_html": "<p>Ion Selective Electrode</p><p>Technical Report \u2013 Data, Calculations, and Results</p>",
+      "order": 53
+    },
+    {
+      "title": "Due: Nov. 13",
+      "body_html": "",
+      "order": 54
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Group Rotations Next Four Weeks (Two Week Labs)</p><p>Lab start dates:  Nov. 9</p><p>th</p><p>and Nov. 23</p><p>rd</p><p>One Full Report, One Technical Report due:</p>",
+      "order": 55
+    },
+    {
+      "title": "Nov. 22",
+      "body_html": "",
+      "order": 56
+    },
+    {
+      "title": "nd",
+      "body_html": "<p>and</p>",
+      "order": 57
+    },
+    {
+      "title": "Dec. 4",
+      "body_html": "",
+      "order": 58
+    },
+    {
+      "title": "th",
+      "body_html": "<p>Group I</p>",
+      "order": 59
+    },
+    {
+      "title": "Heavy Metals in Sediment",
+      "body_html": "<p>Digestion, Atomic Absorption Spectroscopy</p><p>Group II</p>",
+      "order": 60
+    },
+    {
+      "title": "Organic Contaminant Analysis",
+      "body_html": "<p>Sample Preparation, Chromatography/Internal Standards</p>",
+      "order": 61
+    },
+    {
+      "title": "Full Lab and Technical Reports",
+      "body_html": "<p>are due 11 calendar days following the completion of the lab. A late</p><p>penalty of 10% per week applies for reports up to two weeks, after which they will NOT be accepted.</p><p>iii</p>",
+      "order": 62
+    },
+    {
+      "title": "TABLE OF CONTENTS",
+      "body_html": "",
+      "order": 63
+    },
+    {
+      "title": "INTRODUCTION",
+      "body_html": "",
+      "order": 64
+    },
+    {
+      "title": "Page",
+      "body_html": "<p>List of Experiments</p><p>iv</p><p>Lab Reports</p><p>v</p><p>Typical Marking Scheme</p><p>vi</p><p>Cheating and Plagiarism</p><p>vii</p><p>General Laboratory Procedures</p><p>viii</p><p>How to Read an Analytical Method</p><p>ix</p><p>Laboratory Safety</p><p>xi</p><p>General Laboratory References</p><p>xii</p><p>Introduction to Good Laboratory Practices</p><p>xiii</p><p>LAB 0 \u2013 Good Laboratory Practices Exercise</p><p>xxvii</p>",
+      "order": 65
+    },
+    {
+      "title": "EXPERIMENTS",
+      "body_html": "<p>LAB 1 \u2013 Introduction to Metering Devices</p><p>1</p><p>LAB 2 - Alkalinity of Natural Waters</p><p>13</p><p>LAB 3 - Carbon Dioxide in Air</p><p>19</p><p>LAB 4 - Sample Collection and Field Analysis Trip</p><p>23</p><p>LAB 5 - Dissolved Oxygen in Surface Waters</p><p>27</p><p>LAB 6 - Nitrates in Drinking Water</p><p>31</p><p>LAB 7 - Ortho-Phosphates in Wastewater</p><p>37</p><p>LAB 8 - Fluoride Ion in Groundwater and Toothpaste</p><p>41</p><p>LAB 9 - Metals: Cu and Fe in Marine Sediments</p><p>45</p><p>LAB 10 - Organic Contaminants: Caffeine in Water</p><p>53</p>",
+      "order": 66
+    },
+    {
+      "title": "APPENDICES",
+      "body_html": "<p>Glossary of Terms</p><p>65</p><p>Basic Statistics Review for Analytical Chemistry</p><p>67</p><p>Comments on Student Lab Reports</p><p>79</p><p>Summary of Canadian Drinking Water Guidelines</p><p>back cover</p><p>iv</p>",
+      "order": 67
+    },
+    {
+      "title": "LIST OF EXPERIMENTS",
+      "body_html": "<p>One Week Labs (Wet Chemical Techniques)</p>",
+      "order": 68
+    },
+    {
+      "title": "Lab Orientation, Introduction to GLPs and GLP Exercise",
+      "body_html": "<p>(no marks)</p>",
+      "order": 69
+    },
+    {
+      "title": "1.",
+      "body_html": "",
+      "order": 70
+    },
+    {
+      "title": "Introduction to Metering Devices",
+      "body_html": "<p>(Data Tables/5)</p>",
+      "order": 71
+    },
+    {
+      "title": "2.",
+      "body_html": "",
+      "order": 72
+    },
+    {
+      "title": "Alkalinity of Natural Waters",
+      "body_html": "<p>(Data, Calcs and Results Tables/10)</p>",
+      "order": 73
+    },
+    {
+      "title": "3.",
+      "body_html": "",
+      "order": 74
+    },
+    {
+      "title": "Carbon Dioxide in Air",
+      "body_html": "<p>(Data, Calcs, Results, Discussion/15)</p>",
+      "order": 75
+    },
+    {
+      "title": "4.",
+      "body_html": "",
+      "order": 76
+    },
+    {
+      "title": "Sample Collection and Field Analysis Trip",
+      "body_html": "<p>(Rationale, Principles, Results/10)</p>",
+      "order": 77
+    },
+    {
+      "title": "5.",
+      "body_html": "",
+      "order": 78
+    },
+    {
+      "title": "Dissolved Oxygen in Surface Waters",
+      "body_html": "<p>(Full Report/20)</p>",
+      "order": 79
+    },
+    {
+      "title": "6.",
+      "body_html": "",
+      "order": 80
+    },
+    {
+      "title": "Nitrates in Drinking Waters",
+      "body_html": "<p>(Full Report/15)</p>",
+      "order": 81
+    },
+    {
+      "title": "7.",
+      "body_html": "",
+      "order": 82
+    },
+    {
+      "title": "Ortho-Phosphate Analysis in Wastewater",
+      "body_html": "<p>(Full Report/20)</p>",
+      "order": 83
+    },
+    {
+      "title": "8.",
+      "body_html": "",
+      "order": 84
+    },
+    {
+      "title": "Fluoride Ion in Groundwater and Toothpaste",
+      "body_html": "<p>(Full Report/15)</p><p>Two Week Labs (Sample Prep and Instrumental Analysis)</p>",
+      "order": 85
+    },
+    {
+      "title": "9.",
+      "body_html": "",
+      "order": 86
+    },
+    {
+      "title": "Metals in Sediment",
+      "body_html": "<p>(Technical Report/20)</p>",
+      "order": 87
+    },
+    {
+      "title": "10.",
+      "body_html": "",
+      "order": 88
+    },
+    {
+      "title": "Organic Contaminants",
+      "body_html": "<p>(Technical Report/20)</p><p>v</p>",
+      "order": 89
+    },
+    {
+      "title": "FULL LAB REPORTS",
+      "body_html": "<p>CHEM 311 Lab Reports are submitted as stand-alone formal reports (unless otherwise noted) that are to</p><p>be written in an impersonal voice in typed format. Your lab report should outline the principles of the</p><p>chemistry and/or instrumentation employed, calibration techniques, data handling, an estimate of</p><p>experimental uncertainty and a general awareness of the context and significance of the results.</p>",
+      "order": 90
+    },
+    {
+      "title": "TITLE PAGE AND IDENTIFICATION:",
+      "body_html": "<p>Course number. Name of student. Name of partner. Date.</p><p>Unknown #.  The title should provide the reader with both the analyte and the matrix studied and give</p><p>some indication of the technique employed.  E.g., The Analysis of Fluoride Ion in Toothpaste Using an</p><p>Ion Selective Electrode.</p>",
+      "order": 91
+    },
+    {
+      "title": "PRINCIPLE OF METHOD:",
+      "body_html": "<p>Describe the principles involved in relating the</p><p>measured quantity</p><p>(e.g.,</p><p>volume of titrant, absorbance, potential etc.) to the</p><p>analyte concentration</p><p>.  For wet chemical techniques,</p><p>include the stoichiometry of chemical reactions that will be used in the calculation of results.  For</p><p>instrumental techniques, describe the principle of operation of the instrument itself.  Schematic diagrams</p><p>may be useful for instrumental methods</p>",
+      "order": 92
+    },
+    {
+      "title": ".",
+      "body_html": "",
+      "order": 93
+    },
+    {
+      "title": "Do not describe details of the procedure here.",
+      "body_html": "",
+      "order": 94
+    },
+    {
+      "title": "PROCEDURE:",
+      "body_html": "<p>Reference the Lab Manual and specify modifications.</p>",
+      "order": 95
+    },
+    {
+      "title": "DATA:",
+      "body_html": "<p>Tabulate data with descriptive headings and footnotes providing details.  Data tables should be</p><p>able to stand alone providing enough information that the reader could carry out necessary calculations</p><p>without having to go hunting for additional information. For example, in a data table summarizing</p><p>titration volumes, be sure to include the titrant concentration and the sample volume.</p>",
+      "order": 96
+    },
+    {
+      "title": "CALCULATIONS AND RESULTS:",
+      "body_html": "<p>Show a representative calculation used to convert measured</p><p>quantities into reported results. Include calculations used to estimate uncertainties. Figures and graphs</p><p>must be properly labeled. Use spreadsheets (such as Excel) to carry out repetitive calculations and</p><p>generate calibration curves (include equation of best fit line and correlation coefficients). In most</p><p>experiments you will be expected to estimate the experimental uncertainty either as a standard deviation</p><p>or with a 95% confidence limit.</p>",
+      "order": 97
+    },
+    {
+      "title": "DISCUSSION:",
+      "body_html": "<p>State your result/s and give some context for the magnitude (high, medium or low). For</p><p>example, report the levels of Fluoride ion in commercial toothpaste, other foodstuffs or drinking water.</p><p>Be sure to convert to common concentration units, if necessary. Comment on the precision (RSD) and/or</p><p>accuracy (% bias) of the method using your data and the reported values given in</p><p>Standard Methods</p><p>.</p><p>Discuss possible interferents and other sources of error. Conclusion paragraph should clearly report final</p><p>results for all samples with 95% CL and</p><p>n</p><p>(# of replicates).</p>",
+      "order": 98
+    },
+    {
+      "title": "LITERATURE COMPARISON:",
+      "body_html": "<p>Briefly summarize one alternative method of analysis used to</p><p>measure the same analyte. Explain how the analyte is quantified and summarize any</p><p>advantages/disadvantages of the alternate method. You may use the primary literature such as</p><p>Analytical</p><p>Chemistry</p><p>or secondary sources such as</p><p>Standard Methods</p><p>or an Analytical Chemistry textbook.</p>",
+      "order": 99
+    },
+    {
+      "title": "REFERENCES:",
+      "body_html": "<p>All references cited in the report should be listed as numbered endnotes in the style</p><p>adopted by</p><p>Analytical Chemistry</p><p>.</p><p>vi</p>",
+      "order": 100
+    },
+    {
+      "title": "TYPICAL MARKING SCHEME (Full Report)",
+      "body_html": "<p>The following represents a typical marking scheme. Actual marking schemes for a particular lab</p><p>may vary.</p>",
+      "order": 101
+    },
+    {
+      "title": "Mark",
+      "body_html": "",
+      "order": 102
+    },
+    {
+      "title": "Max.",
+      "body_html": "",
+      "order": 103
+    },
+    {
+      "title": "Mark",
+      "body_html": "",
+      "order": 104
+    },
+    {
+      "title": "Technique/Preparation",
+      "body_html": "<p>\u2013 preparedness, timeliness and ability to work</p><p>carefully in a clean an organized manner.</p>",
+      "order": 105
+    },
+    {
+      "title": "1",
+      "body_html": "",
+      "order": 106
+    },
+    {
+      "title": "Principle of Method",
+      "body_html": "<p>\u2013 explain the type of analysis, include relevant</p><p>chemical equations and/or theory of instrumental operation, including</p><p>calibration technique. Addresses the theory that relates the measured</p><p>signal to a meaningful quantitative result. Does not include procedural</p><p>details.</p>",
+      "order": 107
+    },
+    {
+      "title": "3",
+      "body_html": "",
+      "order": 108
+    },
+    {
+      "title": "Data",
+      "body_html": "<p>\u2013 complete, clearly presented tables including all pertinent</p><p>information and uncertainty in measurements.</p>",
+      "order": 109
+    },
+    {
+      "title": "3",
+      "body_html": "",
+      "order": 110
+    },
+    {
+      "title": "Calculations",
+      "body_html": "<p>\u2013 correct, organized, clearly presented including error</p><p>analysis to give uncertainty in the final result. Include calibration</p><p>curves, if any.</p>",
+      "order": 111
+    },
+    {
+      "title": "3",
+      "body_html": "",
+      "order": 112
+    },
+    {
+      "title": "Results",
+      "body_html": "<p>\u2013 level of agreement between your result/s and the known or</p><p>true value for an unknown or environmental sample.</p>",
+      "order": 113
+    },
+    {
+      "title": "3",
+      "body_html": "",
+      "order": 114
+    },
+    {
+      "title": "Discussion",
+      "body_html": "<p>\u2013 clearly state your result/s and give some context for the</p><p>magnitude (high, medium or low).  Comment on the precision (RSD)</p><p>and/or accuracy (% bias) of the method using your data and the</p><p>reported values given in</p><p>Standard Methods</p><p>. Discuss possible</p><p>interferents and other sources of error. Conclusion paragraph should</p><p>clearly report final results for all samples with 95% CL and</p><p>n</p><p>(# of</p><p>replicates).</p>",
+      "order": 115
+    },
+    {
+      "title": "4",
+      "body_html": "",
+      "order": 116
+    },
+    {
+      "title": "Literature Comparison",
+      "body_html": "<p>\u2013 include brief overview of essential aspects</p><p>of an alternate method for the same analyte or alternate analyte using</p><p>the same method.  Use</p><p>Standard Methods</p><p>, text or library references.</p>",
+      "order": 117
+    },
+    {
+      "title": "2",
+      "body_html": "",
+      "order": 118
+    },
+    {
+      "title": "Layout/Organization",
+      "body_html": "<p>\u2013 includes pertinent information on title page,</p><p>proper section headings, labelled figures and/or graphs, all sources of</p><p>information (references) properly cited as end-notes.</p>",
+      "order": 119
+    },
+    {
+      "title": "1",
+      "body_html": "",
+      "order": 120
+    },
+    {
+      "title": "TOTAL",
+      "body_html": "",
+      "order": 121
+    },
+    {
+      "title": "20",
+      "body_html": "",
+      "order": 122
+    },
+    {
+      "title": "Conc. F (ppm)",
+      "body_html": "",
+      "order": 123
+    },
+    {
+      "title": "Uncertainty (ppm)",
+      "body_html": "",
+      "order": 124
+    },
+    {
+      "title": "Slope",
+      "body_html": "<p>Unknown</p><p>Reported</p><p>True Value</p><p>SRM</p><p>Reported</p><p>True Value</p><p>vii</p>",
+      "order": 125
+    },
+    {
+      "title": "GENERAL LABORATORY PROCEDURES",
+      "body_html": "",
+      "order": 126
+    },
+    {
+      "title": "General Procedures",
+      "body_html": "<p>1.</p><p>Labs are conducted in pairs.  You will need to be organized and divide tasks to complete</p><p>the labs in the allocated time.</p><p>2.</p><p>Glassware will be provided on an as needed basis during the lab period.  Students should</p><p>come to the lab prepared with a list of required glassware and an organized work plan.</p>",
+      "order": 127
+    },
+    {
+      "title": "Note:",
+      "body_html": "<p>You may need to pre-rinse some glassware prior to use.</p><p>3.</p><p>In order to avoid contaminating supplied chemical reagents, a sufficient quantity of</p><p>reagents should be transferred to an appropriate receptacle, e.g. small beaker or weigh</p><p>boat.  A reagent bottle should always be returned to its allocated place after use.</p>",
+      "order": 128
+    },
+    {
+      "title": "Note:",
+      "body_html": "<p>NEVER RETURN A CHEMICAL TO THE REAGENT BOTTLE.</p>",
+      "order": 129
+    },
+    {
+      "title": "Note:",
+      "body_html": "<p>ALWAYS HANDLE PRIMARY STANDARDS AND STOCK SOLUTIONS</p><p>WITH CARE.  CONTAMINATION WILL LEAD TO POOR RESULTS FOR YOU</p><p>AND OTHERS.</p><p>4.</p><p>At the end of the laboratory period: All glassware should be thoroughly washed</p><p>(including a final rinse with deionized water) and left on the return cart.  All electrical</p><p>apparatus should be switched off and unplugged.  All taps should be turned fully off and</p><p>all waste should be placed in the appropriate waste container.</p><p>5.</p><p>No student should attempt unauthorised experiments in the laboratory. Students may, on</p><p>occasion, schedule laboratory work provided permission from an instructor has been</p><p>obtained. A student must not use the laboratory in the absence of the laboratory</p><p>supervisor or technician.</p><p>6.</p><p>No chemicals or equipment should be removed from the laboratory at any time.</p><p>viii</p>",
+      "order": 130
+    },
+    {
+      "title": "HOW TO READ AN ANALYTICAL METHOD",
+      "body_html": "",
+      "order": 131
+    },
+    {
+      "title": "Preparing Standard Solutions",
+      "body_html": "<p>The procedure for a particular experiment states \u201cmake up a series of standards from your</p><p>stock solution, from X to Y concentration.\u201d How do you proceed?</p><p>There are several important pieces of information hidden in the above instructions.</p><ul><li>\u201cmake up \u2026 from your stock solution\u201d:  all of your standards will originate from</li></ul><p>this solution.  In some cases, where a wide range of concentrations is required, you</p><p>may need to prepare a \u2018sub-stock\u2019 solution (diluted stock), which you will then use</p><p>to make your most dilute standards.</p><ul><li>\u201ca series of standards\u201d:  in some cases you will be told to make a certain number of</li></ul><p>standards; in others it is left to your discretion. Generally, four or five standards</p><p>are used to prepare a calibration curve. You must prepare at least three standards.</p><ul><li>\u201cstandards \u2026 from X to Y\u201d:  this is the concentration range that your standards</li></ul><p>will cover.  Your most dilute standard will have a concentration of X.  Your most</p><p>concentrated standard will have a concentration of Y.  Units will depend on the</p><p>experiment.</p><ul><li>the dilutions you use to make your standards must be calculated to \u2018fit\u2019 the</li></ul><p>glassware available.  You will have access to 1, 2, 5, 10, 20, 25 and 50 mL</p><p>volumetric pipettes.  You also have 25, 50, 100, 200, 250, 500 and 1000 mL</p><p>volumetric flasks.  Calculate your dilutions so they \u2018fit\u2019 this equipment. (e.g., 1.5</p><p>mL into a 150 mL flask is an impossible dilution with your equipment.  How else</p><p>could you get the same dilution factor?)</p><ul><li>All dilutions used to make standards are done using volumetric glassware.</li></ul>",
+      "order": 132
+    },
+    {
+      "title": "Analytical Shorthand",
+      "body_html": "<p>Rather than spell out exactly how quantities should be measured every time, analytical</p><p>chemists use a shorthand based on the precise use of language and significant figures.</p><p>Read through the following examples and \u2018translate\u2019.  If you can\u2019t see the difference</p><p>between the instructions, ask your lab instructor!</p><p>\u201cweigh 1 gram of sample\u201d</p><p>\u201cweigh exactly 1.0000 gram of sample\u201d</p><p>\u201cweigh about 1 g of NaCl exactly\u201d</p><p>\u201cadd 1 mL of reagent\u201d</p><p>\u201cadd 1.00 mL of reagent\u201d</p><p>\u201cdilute to 1 L in a volumetric flask\u201d</p><p>\u201cdilute to 75 mL\u201d</p><p>Your translation should include: the type of equipment used, the technique used, and the</p><p>amount of reagent used.</p><p>ix</p>",
+      "order": 133
+    },
+    {
+      "title": "Units",
+      "body_html": "<p>A word on units:  you will spend a lot of your time as an analytical chemist converting</p><p>between units.  If you have worked in an analytical lab, you already know about it.  Set</p><p>up a list of conversions for yourself or create an Excel spreadsheet to do this for you. It</p><p>will save you a lot of time and needless errors later.</p><p>mg/L</p><p>\uf06d</p><p>g/mL</p><p>moles/L</p><p>mg/kg</p><p>mg/g</p><p>wt/wt %</p><p>mg/L</p><p>ng/mL</p><p>Hint:  use scientific notation and base SI units.</p><p>For example, mg/L = 10</p><p>-3</p><p>g/L</p><p>\uf040</p><p>10</p><p>-3</p><p>g / 1000 g solution</p><p>\uf0ba</p><p>\u2018parts per million\u2019 by mass.</p><p>The symbol</p><p>\uf040</p><p>indicates that these quantities are not exactly equal, but are often used that</p><p>way.</p>",
+      "order": 134
+    },
+    {
+      "title": "The Plan",
+      "body_html": "<p>You will need to have an experimental plan organized prior to arriving in the lab.</p><p>1.</p><p>The information you have in the lab manual must be reprocessed to create an</p><p>\u201canalytical method\u201d, i.e., a plan.  Some of that reprocessing is described above, for</p><p>example preparing calibration standards.</p><p>2.</p><p>Create your plan using numbered steps or a flow chart, so you can track where you</p><p>are.  Set it up, if you like, so you can check off each step you complete.</p><p>3.</p><p>Number the steps so you can make the most efficient use of your time in the lab.</p><p>4.</p><p>Be aware of time requirements.  For example, if your standard will be made from a</p><p>chemical in the drying oven, it will take some time for it to cool.  This might be your</p><p>first step.</p>",
+      "order": 135
+    },
+    {
+      "title": "\u201cI can\u2019t figure this out \u2026\u201d",
+      "body_html": "<p>Take pity on your Instructor and all the students around you.  Ask this question BEFORE</p><p>your lab period.  No, not just 10 minutes before - at least the day before!  The more</p><p>planning you do, the less time you will need in the lab.  Planning requires a pen and</p><p>paper, writing out your sequence of steps, analyzing and modifying as you go.  Hint:</p><p>highlighters are nice, but by the time your whole page is yellow it doesn\u2019t really help you</p><p>much.  Rewrite the methods for yourself in point form in your lab book.</p><p>x</p>",
+      "order": 136
+    },
+    {
+      "title": "LABORATORY SAFETY",
+      "body_html": "<p>A chemical laboratory is a potentially dangerous environment; the hazards of fire, cuts, burns</p><p>and poisoning being most prevalent.  It is a safe practice to assume all chemical reagents are</p><p>potentially hazardous.  While the use of particularly toxic or carcinogenic reagents is generally</p><p>avoided, some of the reagents in this lab are dangerous.  Check the MSDS and consult your</p><p>instructor for more information.  The first line of defence for skin contact is to flush with plenty</p><p>of water.  Two eyewash stations are provided for the immediate flushing of eye splashes.  In the</p><p>event of an accident, contact your instructor immediately.  Safety rules will work only if you</p><p>obey them and encourage others to obey them.  Please familiarise yourself with the following</p><p>regulations.</p>",
+      "order": 137
+    },
+    {
+      "title": "Personal Safety",
+      "body_html": "<p>\uf0b7</p><p>There must be no smoking or eating in the laboratory.</p><p>\uf0b7</p><p>Students must wear safety glasses at all times.  Safety glasses are available.  Contact lenses</p><p>should be removed prior to entering the laboratory.  Prescription glasses may be worn, but</p><p>should be covered with safety glasses.</p><p>\uf0b7</p><p>Students are recommended to wear laboratory coats in the laboratory.</p><p>\uf0b7</p><p>Many of the chemicals in the laboratory are poisonous whether taken orally or absorbed</p><p>through the skin.  If any chemical is swallowed the supervisor should be summoned</p><p>immediately.  If any chemical comes into contact with the skin it should be washed off</p><p>immediately with plenty of water.</p><p>\uf0b7</p><p>While heating a substance in a test tube, care should be taken to ensure that the mouth of the</p><p>test tube is not pointing at anyone.  A student should never look down into a test tube that is</p><p>being heated.</p><p>\uf0b7</p><p>Concentrated acids and bases; strong oxidising and reducing agents; flammable solvents and</p><p>toxic chemicals should be treated with respect.</p><p>\uf0b7</p><p>Always wash your hands prior to existing the lab and before eating.</p>",
+      "order": 138
+    },
+    {
+      "title": "Fire",
+      "body_html": "<p>\uf0b7</p><p>In the event of fire, the flames should be extinguished with one of the extinguishers in the</p><p>laboratory and the supervisor notified immediately.</p>",
+      "order": 139
+    },
+    {
+      "title": "Spillages and Fumes",
+      "body_html": "<p>\uf0b7</p><p>All breakages and minor spills of chemicals should be reported immediately to the supervisor</p><p>or technician without delay.</p><p>\uf0b7</p><p>A receptacle in the laboratory is reserved solely for broken glassware.</p><p>\uf0b7</p><p>Any experiment involving the evolution of pungent odours or fumes must be carried out in</p><p>the fume hood.</p><p>\uf0b7</p><p>Students are accountable for their own actions in the laboratory and this Department will not</p><p>accept liability for accidents that occur due to irresponsibility on the part of a student or</p><p>students.</p><p>xi</p>",
+      "order": 140
+    },
+    {
+      "title": "Material Safety Data Sheets (MSDS)",
+      "body_html": "<p>\uf0b7</p><p>Material Safety Data Sheets summarize physical and chemical properties of all chemical</p><p>reagents used in this laboratory.  In addition, the MSDS sheets contain information on the</p><p>hazards and toxicity effects.  MSDS can be found in the prep room and should be consulted if</p><p>there is any question regarding the safety of materials encountered.</p><p>MSDS contain information in the following nine categories:</p><p>1.</p><p>product information</p><p>2.</p><p>hazardous ingredients</p><p>3.</p><p>physical data</p><p>4.</p><p>fire and explosion data</p><p>5.</p><p>reactivity data</p><p>6.</p><p>toxicological properties (health effects)</p><p>7.</p><p>preventive measures</p><p>8.</p><p>first aid measures</p><p>9.</p><p>preparation data of MSDS</p>",
+      "order": 141
+    },
+    {
+      "title": "GENERAL LABORATORY REFERENCES",
+      "body_html": "<p>1.</p><p>Standard Methods for the Examination of Water and Wastewater (21st Ed.), APHA, 2005.</p><p>2.</p><p>Water Analysis Handbook, (2</p><p>nd</p><p>Ed.), Hach Co., Loveland, 1992.</p><p>3.</p><p>Environmental Sampling and Analysis for Technicians, M. Csuros, Lewis Publishers, Boca</p><p>Raton, 1994.</p><p>4.</p><p>Drinking Water Chemistry: A Laboratory Manual, B.A. Hauser, Lewis Publishers, Boca</p><p>Raton, 2001.</p><p>5.</p><p>Laboratory Manual for the Examination of Water, Wastewater and Soil (3</p><p>rd</p><p>Ed.), H.H. Rump,</p><p>Wiley-VCH, New York, 1999.</p><p>6.</p><p>Water Quality and Pond Soil Analysis for Aquaculture, C.E. Boyd, C.S. Tucker, Auburn</p><p>University, 1992.</p><p>xii</p>",
+      "order": 142
+    },
+    {
+      "title": "INTRODUCTION TO GOOD LABORATORY PRACTICES (GLPs)",
+      "body_html": "<p>The following notes on proper experimental technique and use of equipment are collectively</p><p>known as GLPs. It is assumed that the student is familiar with and always practices the following</p><p>procedures outlined in this section.</p><p>Your laboratory instructor will be evaluating your experimental</p><p>technique. Failure to practice the following will lead to poor results and poor technique. Both of</p><p>these are graded. Exceptions to standard GLPs must be noted in your lab report.</p>",
+      "order": 143
+    },
+    {
+      "title": "1. Cleaning and Storing Glassware",
+      "body_html": "<p>Care must be taken to ensure that glassware is thoroughly clean before use.  However, recognize</p><p>that soap can be a serious chemical contaminant.  Do not clean your glassware with soap unless</p><p>specifically instructed.  In general, glassware will be supplied clean, acid washed and thoroughly</p><p>rinsed with deionized water. Properly cleaned glassware is indicated by the presence of an</p><p>unbroken film of water on the surface.  It is seldom necessary to dry glassware before use; in fact</p><p>this practice should be discouraged because it wastes time, can be a cause of contamination and</p><p>result in changes in volumetric glassware.</p><p>Always pre-rinse burets and volumetric pipettes with the titrant or solution to be transferred prior</p><p>to use.  Note that rinsing is most effectively accomplished with a greater number of small</p><p>portions, rather than a smaller number of large portions.</p><p>Rinse all glassware with tap and distilled water after use.</p>",
+      "order": 144
+    },
+    {
+      "title": "Never let reagents dry in volumetric",
+      "body_html": "",
+      "order": 145
+    },
+    {
+      "title": "glassware.",
+      "body_html": "",
+      "order": 146
+    },
+    {
+      "title": "2. Housekeeping",
+      "body_html": "<p>Good housekeeping is important for the</p>",
+      "order": 147
+    },
+    {
+      "title": "safety",
+      "body_html": "<p>and convenience of everyone, including the</p><p>cleaning staff, who are not chemists.  The analytical lab is a shared space.  It is a busy place, and</p><p>any mess you don't clean up will inconvenience many people.  A mess will not impress your lab</p><p>instructor and you certainly won't impress any future employers with poor, unsafe work habits.</p><p>Don't leave equipment and chemicals scattered over the benchtop; return them when you are</p><p>finished using them.  This allows others to use the same equipment, and prevents any accidents</p><p>involving or resulting from your mess.  Fumehood space is often at a premium, so clear out as</p><p>soon as you no longer need to work there.  When you are finished working, in the fumehood</p><p>especially, clean the entire area with a damp paper towel.  Clean up all chemical spills</p><p>immediately, especially when the balances or other instruments are involved.  Wash the outside</p><p>of reagent bottles when you are finished using them.  Drips and small spills may go unnoticed</p><p>until they have had some time to react and cause a burn, at which point it is too late.</p><p>Never leave experiments unattended.  If you must, especially in the case of reactions and</p><p>digestions or anything that involves the use of hotplates and stirrers, inform your lab instructor</p><p>xiii</p><p>and have them or another student keep an eye on your experiment.  Even if you have to leave the</p><p>lab for only a minute to go to the bathroom, inform your lab instructor.</p><p>When using chemicals and supplies, use all of one container before opening another one, unless</p><p>specifically directed to do otherwise by your lab instructor.  Inform your lab instructor of any</p><p>chemicals or supplies that are running low, including cylinders of compressed gases and printer</p><p>supplies, so that there will be enough for the next student to complete their experiment.  Also</p><p>inform your lab instructor as soon as possible if anything is missing or if anything is broken, so</p><p>that replacements can be obtained as quickly as possible.</p><p>Dispose of all refuse in the appropriate waste container as soon as possible; if in doubt ask your</p><p>lab instructor.  Questions are not \u2018stupid\u2019; unlike endangering the lives and health of others.  At</p><p>the end of the lab, return all chemicals and equipment where they belong and clean up your work</p><p>area.  Double-check everywhere you worked, make sure that all equipment and supplies are</p><p>returned, and all waste appropriately disposed (including any bench and fumehood space, the</p><p>balances, instruments and sinks where you worked).  As far as possible, shut down and turn off</p><p>all equipment that you have worked with as soon as you have finished.</p>",
+      "order": 148
+    },
+    {
+      "title": "3. Use of Tap, Distilled and Deionized Water",
+      "body_html": "<p>There are three grades of water available for use in the lab:</p><p>\u00b7 tap</p><p>\u00b7 distilled/ reverse osmosis</p><p>\u00b7 deionized</p><p>The three grades of water are progressively more expensive to produce. In general,</p><p>use only the</p><p>minimum purity of water necessary</p><p>and do not waste water, particularly the more expensive grades.</p><p>Distilled water will suffice for most uses.</p>",
+      "order": 149
+    },
+    {
+      "title": "4. Handling Reagents and Solutions",
+      "body_html": "<p>Successful analytical work depends on the purity and quality of the available reagents.  A freshly</p><p>opened reagent container can be used with confidence; whether or not the stated assay values for</p><p>purity and impurities remain valid depends entirely on how the container has been handled since</p><p>being opened.  The purity of the chemical reagents available (and the quality of your results and,</p><p>therefore, your marks) depends on strict adherence to the following rules.</p><p>xiv</p><p>Use small pre-cleaned beakers (in 10 and 20 mL sizes) for pouring out reagents.  Any solid or</p><p>liquid not used should be disposed of appropriately.</p><p>1</p><p>The possibility of contamination can be minimized by choosing the smallest bottle that</p><p>will supply the required quantity of reagent.  Ensure that the purity of the reagent is</p><p>sufficient to prevent contamination and interferences and to reduce the blank to a</p><p>minimum.  In general, try to use only reagents whose purity you can be certain of (check</p><p>assay values on the label).</p><p>2</p><p>Replace the top of the reagent container immediately after removal of the reagent.</p><p>3</p><p>Hold stoppers between the fingers; stoppers should never be set down on the bench or</p><p>anywhere else except in the neck of the appropriate flask or reagent bottle.</p><p>4</p><p>Unless specifically directed to the contrary, never return any excess reagent or solution to</p><p>a reagent bottle.  Contamination of the entire bottle by returning excess reagent is a false</p><p>economy - considerable time can be spent determining the source of any contamination</p><p>(and consequent poor results), and the entire bottle then has to be disposed of and a new</p><p>bottle obtained.</p><p>5</p><p>Before taking a bottle of chemical to the weighing room, first clean your spatula with</p><p>deionized water.  Scrub it dry with a Kimwipe.  Now take your solid chemical to the</p><p>weighing room and weigh it.</p><p>6</p><p>Keep reagent storage areas and the balances clean.  Clean up any spilled chemicals</p><p>immediately.</p><p>7</p><p>Do not use a new or unopened bottle of reagent without first obtaining the permission of</p><p>the lab instructor.</p>",
+      "order": 150
+    },
+    {
+      "title": "5.  Handling Solids",
+      "body_html": "",
+      "order": 151
+    },
+    {
+      "title": "5.1 Balances",
+      "body_html": "<p>Both analytical and top-loading balances are available.  Use the top-loading balances</p><p>wherever possible, i.e., whenever the weight does not have to be exact or where an</p><p>uncertainty of 0.01 g will suffice.  For all work where the weight has to be known as</p><p>exactly as possible, use the analytical balances.</p><p>Electronic Balances</p><p>:</p><p>Most of you will have used the self-taring electronic balances in other courses.  In</p><p>general:</p><p>\u2022</p><p>Keep the balance pan and surrounding areas clean.</p><p>\u2022</p><p>Weigh solids into a container that is as light as possible.</p><p>\u2022</p><p>An initial tare weight is usually unneeded, since you can tare the container to zero.</p><p>\u2022</p><p>CLEAN UP when you are done</p><p>xv</p><p>Detail: weighing solids</p><p>Ensure that the solid is of fairly uniform texture and will readily pour.  If necessary,</p><p>shake the capped reagent bottle and/or tap it on a wooden surface to break up any large</p><p>lumps to allow the reagent to pour freely.  Remove the cap and pour a slight excess into a</p><p>clean, dry beaker or weighing boat.  Immediately replace the cap on the reagent bottle</p><p>and tighten it.  Weigh reagent from the beaker or weighing boat into the desired</p><p>container(s).  If necessary, obtain additional solid from the reagent bottle as described</p><p>above.  When finished, return the sealed reagent bottle and properly dispose of the excess</p><p>reagent.</p>",
+      "order": 152
+    },
+    {
+      "title": "5.2  Quantitative Transfers",
+      "body_html": "<p>After weighing a solid, it usually must be transferred in its entirety to a volumetric flask</p><p>or beaker. This process is referred to as a quantitative transfer.</p><p>\u2022</p><p>Take your notebook, wash bottle, funnel and receiving vessel (beaker or flask) into</p><p>the weighing room.</p><p>\u2022</p><p>After weighing your solid and recording the mass, rinse it from the weigh boat</p><p>through a funnel into the receiving flask.</p><p>\u2022</p><p>Make sure all of the solid has been rinsed from the weigh boat and the funnel into the</p><p>receiving flask.</p><p>\u2022</p><p>Remove the funnel while rinsing the stem into the flask.</p>",
+      "order": 153
+    },
+    {
+      "title": "5.3  Ovens and Desiccators",
+      "body_html": "<p>Most solids absorb atmospheric moisture and, as a consequence, change in composition.</p><p>This effect can be substantial when a large surface area is exposed to a humid</p><p>atmosphere, as with a reagent that is a fine powder.  It is ordinarily necessary to dry such</p><p>solids before weighing to free the results from dependence upon the atmospheric</p><p>humidity.  Oven drying is the most convenient method for removing absorbed moisture</p><p>from a solid.  This technique, of course, is not appropriate for samples that change</p><p>composition at the temperature of the oven.  Furthermore, with some solids the</p><p>temperatures attainable in ordinary drying ovens are insufficient to completely remove</p><p>bound water.</p><p>While cooling, dried material is stored in a desiccator to prevent the uptake of</p><p>atmospheric moisture.  The base of the desiccator contains a chemical drying agent.</p><p>Samples are placed on a perforated plate that is supported by a constriction in the</p><p>desiccator wall.  Lightly greased ground-glass surfaces provide a tight seal between the</p><p>lid and the base of the desiccator.  Whether it is being replaced or removed, the lid of the</p><p>desiccator is properly moved by a sliding, rather than a lifting, motion.  An airtight seal is</p><p>achieved by slight rotation and direct downward pressure on the positioned lid.</p><p>When handling heated objects manipulations should be practiced first, if necessary, to</p><p>assure that adequate control can be maintained with the implements to be used.  If using</p><p>tongs, always place them on surfaces so the grips are in the air rather than resting on the</p><p>surface (prevents contamination).  When a heated object is placed in a desiccator, the</p><p>increased pressure of the enclosed air may be sufficient to break the seal between the lid</p><p>and the base, causing the lid to slide off and break.  Upon cooling, the opposite effect is</p><p>xvi</p><p>likely to occur, the interior of the desiccator now being under a partial vacuum.  Both of</p><p>these conditions can cause the contents of the desiccator to be physically lost or</p><p>contaminated.  Although it defeats the purpose somewhat, it may be best to allow some</p><p>cooling to occur before finally sealing the lid.  It also helps to break the seal several times</p><p>during cooling to relieve any vacuum that may be forming.</p>",
+      "order": 154
+    },
+    {
+      "title": "6.  Measurement of Liquids",
+      "body_html": "<p>The reliable measurement of volume is usually performed with the pipet, the buret and the</p><p>volumetric flask (weighing is accurate but time-consuming).  Pipets and burets are ordinarily</p><p>designed and calibrated to deliver specified volumes, whereas volumetric flasks are calibrated on</p><p>a \"to contain\" basis.   Volumetric equipment is marked by the manufacturer to indicate not only</p><p>the manner of calibration (usually with a TD for \"to deliver\" or a TC for \"to contain\") but also</p><p>the temperature for which the calibration strictly refers.  The volume occupied by a given mass</p><p>of liquid varies with temperature, as does the volume of the container holding the liquid.  As a</p><p>general rule, volumetric glassware should not be heated because the calibration can be</p><p>permanently altered.</p>",
+      "order": 155
+    },
+    {
+      "title": "6.1  Dispensing liquid reagents",
+      "body_html": "<p>Estimate the total volume of liquid reagent required, including any needed for rinsing of</p><p>pipets or other volumetric glassware.  Pour a slight excess of the reagent into a clean, dry</p><p>beaker.</p><p>(Note: If the beaker is clean but not dry, pour into the beaker enough reagent to</p><p>rinse the inside of the beaker by tilting the beaker and swirling the reagent.  Dispose of</p><p>this reagent.  Repeat this rinsing at least two more times, for a total of at least 3 rinsings,</p><p>and then pour a slight excess of the liquid reagent into the clean, rinsed beaker</p><p>).  For</p><p>pipetting, you will want to take sufficient excess to ensure that no air is taken up into the</p><p>pipet, probably 15% - 30%.</p>",
+      "order": 156
+    },
+    {
+      "title": "6.2  Pipets",
+      "body_html": "<p>There are different types of pipets.  Most of the work in this course involves the use of</p><p>volumetric pipets which deliver a fixed volume of liquid and graduated pipets.  Carefully</p><p>inspect graduated pipets to see if the graduations extend to the tip of the pipet - if they do</p><p>not then the volume of the tip is not calibrated and the pipet should be drained only as far</p><p>as the lowest calibration line.  Liquids are drawn into pipets through the application of a</p><p>slight vacuum.</p>",
+      "order": 157
+    },
+    {
+      "title": "Never",
+      "body_html": "",
+      "order": 158
+    },
+    {
+      "title": "pipet anything by mouth",
+      "body_html": "<p>, use a pipet bulb.</p><p>xvii</p><p>Carefully inspect the pipet for damage, especially the tip.  Consult your lab instructor if in</p><p>doubt about damaged pipets.</p><p>In general, when planning dilutions, attempt to use the largest volumetric pipet that is</p><p>practical.  For example, making a 1/10 dilution with a 5 mL pipet and 50 mL flask will be</p><p>less accurate than making the same dilution using a 10 mL pipet and a 100 mL flask.  For</p><p>even better accuracy, you could use a 25 mL pipet and a 250 mL flask!  These guidelines</p><p>apply primarily to your standard solutions, and particularly to any that will be used for</p><p>subsequent dilutions.  If in doubt about your \u2018dilution plan\u2019, speak to your instructor</p><p>before the lab.</p><p>1.</p><p>Use volumetric transfer pipets to carry out dilutions of standard solutions.</p><p>2.</p><p>Rinse the pipet:  Draw a small quantity of the liquid to be pipetted into the pipet.  Tip</p><p>the pipet nearly horizontal, and rotate to thoroughly wet the interior surface, up to</p><p>above the mark.  Discard the liquid and repeat rinsing at least twice more, for a total</p><p>of at least three rinsings.</p><p>3.</p><p>Carefully fill the pipet somewhat past the mark.  Quickly place a forefinger over the</p><p>upper end of the pipet to hold the liquid.  Ensure that there are no bubbles in the bulk</p><p>of the liquid or foam at the surface.</p><p>4.</p><p>Tilt the pipet slightly from the vertical, and wipe the exterior free of adhering liquid.</p><p>5.</p><p>Slowly allow the sample to drain into a waste beaker by partially releasing the</p><p>forefinger.</p><p>6.</p><p>Halt further flow when the bottom of the meniscus touches the top of the graduation</p><p>mark.</p><p>7.</p><p>Place the tip of the pipet well into the receiving vessel, and allow the liquid to drain.</p><p>When free flow ceases, rest the tip of the pipet against the inner wall or bottom of the</p><p>receiving vessel for 10 s.</p><p>8.</p><p>Finally, withdraw the pipet with a rotating motion to remove any droplet still</p><p>adhering to the tip.  The small volume remaining</p>",
+      "order": 159
+    },
+    {
+      "title": "is not",
+      "body_html": "<p>blown out or rinsed into the</p><p>receiving vessel.</p>",
+      "order": 160
+    },
+    {
+      "title": "Thoroughly rinse the pipet with distilled water after use",
+      "body_html": "<p>.</p><p>Note that only the upper part of the pipet should be handled.  Do not touch or hold the</p><p>bottom of the pipet to avoid contaminating the liquid being pipetted (and yourself!).</p><p>xviii</p><p>Table 1:  Tolerances of Class A transfer (volumetric) pipets</p><p>Volume (mL)</p><p>Tolerance (mL)</p><p>Tolerance as a % of total volume</p><p>0.5</p><p>\u00b1</p><p>0.006</p><p>1.2</p><p>1</p><p>\u00b1</p><p>0.006</p><p>0.6</p><p>2</p><p>\u00b1</p><p>0.006</p><p>0.3</p><p>3</p><p>\u00b1</p><p>0.01</p><p>0.33</p><p>4</p><p>\u00b1</p><p>0.01</p><p>0.25</p><p>5</p><p>\u00b1</p><p>0.01</p><p>0.2</p><p>10</p><p>\u00b1</p><p>0.02</p><p>0.2</p><p>15</p><p>\u00b1</p><p>0.03</p><p>0.2</p><p>20</p><p>\u00b1</p><p>0.03</p><p>0.15</p><p>25</p><p>\u00b1</p><p>0.03</p><p>0.12</p><p>50</p><p>\u00b1</p><p>0.05</p><p>0.1</p><p>100</p><p>\u00b1</p><p>0.08</p><p>0.08</p><p>xix</p>",
+      "order": 161
+    },
+    {
+      "title": "6.3 Micropipettors",
+      "body_html": "<p>Micropipettors are commercially available in various sizes; some deliver a fixed volume</p><p>while others are adjustable within a given range. Common volumes for micropipettors in</p><p>an analytical lab are 5 uL to 2000 uL. Micropipettors use disposable plastic tips. To</p><p>prevent contamination of these tips, insert the clean pipettor (not your hand) into bag</p><p>containing the tips and using your hand on the outside of the bag, slide a tip into place.</p><p>Once the disposable tip is firmly in place, the micropipettor is ready for use. Depress the</p><p>button at the top of the micropipettor to the first stop position and place the tip into the</p><p>liquid to be transferred. Release the button to pull up the solution and then remove the</p><p>micropipettor. Place the tip into the receiving vessel and then depress the button at the top</p><p>of the micropipettor to the second stop position. Depressing to the first stop ejects most of</p><p>the solution drawn up, while the second stop \u2018blows out\u2019 the remaining solution. Some</p><p>micropipettors have a third stop position which ejects the tip.</p><p>Fixed volume micropipettors are more accurate than the adjustable micropipettors.</p><p>Typical values for accuracy and precision are given for Eppendorf\u2122 brand</p><p>micropipetteor.</p><p>xx</p><p>Table 2: Fixed volume micropipettor specifications</p><p>Pipette volume (</p><p>\uf06d</p><p>L)</p><p>Accuracy (%)</p><p>Precision (%)</p><p>5</p><p>\u00b1 1.5</p><p>< 0.8</p><p>10</p><p>\u00b1 1.0</p><p>< 0.5</p><p>50</p><p>\u00b1 0.7</p><p>< 0.3</p><p>> 100</p><p>\u00b1 0.6</p><p>< 0.2</p>",
+      "order": 162
+    },
+    {
+      "title": "6.4  Measurement of liquids using a graduated cylinder",
+      "body_html": "<p>If the reagent bottle is small and/or easy to handle, the amount of reagent required may be</p><p>poured directly into the graduated cylinder.  Immediately replace the cap or stopper on</p><p>the reagent bottle. Clean up any spills as noted above and return the reagent bottle.  Any</p><p>excess reagent can be removed from the graduated cylinder using a pasteur pipet; this</p><p>excess is then disposed of.  If the reagent bottle is large, difficult to handle or if you are</p><p>worried about spillage (especially if the reagent is a concentrated caustic, for example)</p><p>the reagent should be poured into a clean beaker and then from the beaker into the</p><p>graduated cylinder.  In this instance, excess reagent from the graduated cylinder is</p><p>returned to the beaker.  Since graduated cylinders are not used for exacting analytical</p><p>measurements, the small amount of water remaining after cleaning normally does not</p><p>need to be removed by drying or rinsing.</p><p>xxi</p>",
+      "order": 163
+    },
+    {
+      "title": "6.5  Volumetric Flasks",
+      "body_html": "<p>Fill the flask until the bulb of the flask is almost full. Stop and swirl the solution to</p><p>achieve adequate mixing. Bring the liquid level almost to the mark and allow time for</p><p>solutions to drain from the neck of the flask (and for thermal expansion to room</p><p>temperature, if necessary).  Use a pasteur pipet to carefully dilute to the mark.  Firmly</p><p>stopper the flask, and invert repeatedly (do not shake) to assure uniform mixing.  For</p><p>storage beyond one day, transfer the contents to a clean, dry storage bottle or one that has</p><p>been thoroughly rinsed with several portions of the solution from the flask. If you are</p><p>using aqueous solvents, it is unnecessary to dry glassware; rinse glassware with deionized</p><p>water. In general, volumetric glassware (pipets and volumetric flasks) should not be</p><p>placed in a hot oven to dry as the thermal expansion may distort accuracy.</p><p>Table 3:  Tolerances of Class A volumetric flasks</p><p>Volume (mL)</p><p>Tolerance (mL)</p><p>Tolerance as a % of total volume</p><p>1</p><p>\u00b1</p><p>0.02</p><p>2</p><p>2</p><p>\u00b1</p><p>0.02</p><p>1</p><p>5</p><p>\u00b1</p><p>0.02</p><p>0.4</p><p>10</p><p>\u00b1</p><p>0.02</p><p>0.20</p><p>25</p><p>\u00b1</p><p>0.03</p><p>0.12</p><p>50</p><p>\u00b1</p><p>0.05</p><p>0.1</p><p>100</p><p>\u00b1</p><p>0.08</p><p>0.08</p><p>200</p><p>\u00b1</p><p>0.1</p><p>0.05</p><p>250</p><p>\u00b1</p><p>0.12</p><p>0.048</p><p>500</p><p>\u00b1</p><p>0.2</p><p>0.04</p><p>1000</p><p>\u00b1</p><p>0.3</p><p>0.03</p><p>2000</p><p>\u00b1</p><p>0.5</p><p>0.025</p>",
+      "order": 164
+    },
+    {
+      "title": "6.6  Burets",
+      "body_html": "<p>xxii</p><p>Burets are designed to deliver liquids primarily for the purpose of volumetric titrations.</p><p>They are still widely used in an analytical laboratory and considered a \u2018reference\u2019 method</p><p>for many analytes. A standard 50 mL buret is divided into 1 mL graduations with 0.1 mL</p><p>sub-divisions. Leveling the eye with the bottom of the meniscus, an analyst should be</p><p>able to interpolate volume readings to within 0.02 mL with a high degree of</p><p>reproducibility.</p><p>Filling burets</p><p>\u2022</p><p>Load 50 mL burets using a funnel.</p><p>\u2022</p><p>Rinse inside of buret including the valve and tip, with three small portions of titrant</p><p>to be used.</p><p>\u2022</p><p>Fill the buret and run some titrant into a waste beaker checking for air bubbles in the</p><p>tip.</p><p>\u2022</p><p>Make sure all air bubbles have cleared.</p><p>\u2022</p><p>Let the solution level stabilize and record the initial volume to nearest \u00b10.02 mL.</p><p>Titrating</p><p>\u2022</p><p>Control the stopcock valve with your non-dominant hand. This allows for finer</p><p>control of the valve and swirling of the receiving flask with your dominant hand.</p><p>\u2022</p><p>If you know (by calculation or experience) the approximate volume to be delivered,</p><p>you can add ~80% quickly and then slow down as you approach the endpoint.</p><p>\u2022</p><p>If the endpoint is to be determined by a colour change, you will observe a temporary</p><p>change which disappears with swirling as you get close to the endpoint.</p><p>\u2022</p><p>To add less than a drop of titrant as the endpoint approaches, carefully adjust the</p><p>stopcock valve until titrant just begins to flow. Close the valve and wash the hanging</p><p>drop into the receiving flask with a wash bottle.</p><p>\u2022</p><p>Repeat the above step until the endpoint colour change is just barely visible and</p><p>xxiii</p><p>permanent for more than 30 sec.</p>",
+      "order": 165
+    },
+    {
+      "title": "6.7  Digital titrators",
+      "body_html": "<p>Digital titrators are small portable devices designed to deliver minute volumes of titrant.</p><p>They are convenient for field measurements (although less precise).</p><p>xxiv</p><p>Follow the instructions below for the use of digital titrators</p><p>:</p><p>1.</p><p>Choose the appropriate titrant Reagent Cartridge for the analyte and method chosen.</p><p>Be sure to check both the titrant identity and concentration. Record the sample</p><p>volume and the digit multiplier to be used.</p><p>2.</p><p>With the titrator plunger fully retracted, slide the Reagent Cartridge into place.</p><p>3.</p><p>Remove the Reagent Cartridge tip cap and replace with a Delivery Tube.</p><p>4.</p><p>Depress the button on the plunger slider and slide the plunger until it meets resistance.</p><p>5.</p><p>With the titrator in the vertical position (tip up) continue to slide the plunger by hand</p><p>or by cranking the Delivery Knob to remove all air bubbles from the Reagent</p><p>Cartridge and the Delivery tube. This will require wasting some of the titrant.</p><p>6.</p><p>Wipe the outside of the Delivery Tube with a Kimwipe\u2122 to remove excess titrant.</p><p>7.</p><p>Re-set the Digital Counter to zero.</p><p>8.</p><p>Titrate the sample to the specified endpoint.</p><p>9.</p><p>Record the number on the Digit Counter and convert this to concentration of analyte</p><p>using the multiplier appropriate for the particular method.</p>",
+      "order": 166
+    },
+    {
+      "title": "7.  Quality Control Program",
+      "body_html": "<p>For most experiments, a \u2018quality control\u2019 sample, or QC, will be available and labeled as either a</p><p>Certified Reference Material (CRM) or a Standard Reference Material (SRM). You will determine</p><p>the concentration of analyte in the QC and compare that value to the known value. Accuracy is</p><p>expressed as a % bias or % error and gives insight into the experimental method and/or the analyst.</p><p>Replicates are required or recommended in most cases to assess precision and are typically</p><p>reported as relative standard deviations (RSD) or 95% confidence limits (CL\u2019s)</p><p>xxv</p>",
+      "order": 167
+    },
+    {
+      "title": "8.  Sample Sequencing",
+      "body_html": "<p>Analytical laboratories have strict guidelines for sample analysis, which are required to meet</p><p>various quality control standards. For CHEM 311, you will use the following sequence in all</p><p>experiments, unless otherwise noted. In some cases, you may not have separate calibration and</p><p>method blanks. Try to run at least one sample in triplicate; this will allow you to calculate precision</p><p>estimates.</p><p>Table 4. GLP Order for Sample and Standard Analysis</p><p>Run #</p><p>Sample</p><p>Reason</p><p>1</p><p>calibration blank</p><p>set the instrument zero, or check for impurities</p><p>2</p><p>most conc. standard</p><p>make sure the instrument range is set properly</p><p>3</p><p>least conc. standard</p><p>rinse well before running this one!</p><p>4</p><p>remaining standards</p><p>5</p><p>calibration blank</p><p>make sure instrument zero hasn\u2019t drifted</p><p>6</p><p>method blank</p><p>check sample preparation for contamination</p><p>7</p><p>samples (\u2018unknown\u2019)</p><p>run the samples!!</p><p>8</p><p>QC sample</p><p>use to confirm the instrument is working properly, and</p><p>standards are made correctly.</p><p>9</p><p>most conc. standard</p><p>make sure instrument response hasn\u2019t drifted</p><p>xxvi</p>",
+      "order": 168
+    },
+    {
+      "title": "LAB 0:",
+      "body_html": "",
+      "order": 169
+    },
+    {
+      "title": "GOOD LABORATORY PRACTICES EXERCISE",
+      "body_html": "<p>OBJECTIVE</p><p>a)  to prepare a</p><p>stock</p><p>and</p><p>standard</p><p>solution by volumetric dilution and</p><p>b) to standardize a solution of unknown concentration using the standard solution.</p><p>EXPERIMENTAL PROCEDURE</p><p>An accurately weighed quantity of sulfamic acid (a primary standard) is provided in a 100 mL</p><p>volumetric flask.  Prepare your stock solution of sulfamic acid (HSO</p><p>3</p><p>NH</p><p>2</p><p>) by diluting this solid</p><p>to the 100.00 mL mark with deionized water.  Ensure complete mixing of this solution with a</p><p>minimum of 15-20 inversions.  Using the mass information provided on the flask, determine the</p><p>molarity of stock sulfamic acid.</p>",
+      "order": 170
+    },
+    {
+      "title": "(Molar Mass of HSO",
+      "body_html": "<p>3</p>",
+      "order": 171
+    },
+    {
+      "title": "NH",
+      "body_html": "<p>2</p>",
+      "order": 172
+    },
+    {
+      "title": "=  97.10 g/mol)",
+      "body_html": "",
+      "order": 173
+    },
+    {
+      "title": "[HSO",
+      "body_html": "<p>3</p>",
+      "order": 174
+    },
+    {
+      "title": "NH",
+      "body_html": "<p>2</p>",
+      "order": 175
+    },
+    {
+      "title": "]",
+      "body_html": "<p>Stock</p>",
+      "order": 176
+    },
+    {
+      "title": "=",
+      "body_html": "<p>Next, prepare a ~0.1M standard solution of sulfamic acid by diluting the appropriate volume of</p><p>stock solution with deionized water in another 100 mL volumetric flask.  Note:  the final</p><p>concentration should be known as precisely as possible (it is a standard solution), but need not be</p><p>exactly 0.1000M (i.e., 0.09981 M or 0.1022 M are completely acceptable values).</p>",
+      "order": 177
+    },
+    {
+      "title": "[HSO",
+      "body_html": "<p>3</p>",
+      "order": 178
+    },
+    {
+      "title": "NH",
+      "body_html": "<p>2</p>",
+      "order": 179
+    },
+    {
+      "title": "]",
+      "body_html": "<p>Standard</p>",
+      "order": 180
+    },
+    {
+      "title": "=",
+      "body_html": "<p>xxvii</p><p>Finally,</p><p>standardize</p><p>the unknown sodium hydroxide solution provided by titrating a 25 mL</p><p>aliquot of standard sulfamic acid with the NaOH solution.  Use 3 drops of indicator solution</p><p>(phenolphthalein) to visualize the endpoint of the titration by the appearance of a persistent light</p><p>pink color.  The stoichiometry of the reaction is:</p>",
+      "order": 181
+    },
+    {
+      "title": "NaOH",
+      "body_html": "<p>(aq)</p>",
+      "order": 182
+    },
+    {
+      "title": "+  HSO",
+      "body_html": "<p>3</p>",
+      "order": 183
+    },
+    {
+      "title": "NH",
+      "body_html": "<p>2</p><p>(aq)</p>",
+      "order": 184
+    },
+    {
+      "title": "\uf0e0",
+      "body_html": "",
+      "order": 185
+    },
+    {
+      "title": "NaSO",
+      "body_html": "<p>3</p>",
+      "order": 186
+    },
+    {
+      "title": "NH",
+      "body_html": "<p>2</p><p>(aq)</p>",
+      "order": 187
+    },
+    {
+      "title": "+  H",
+      "body_html": "<p>2</p>",
+      "order": 188
+    },
+    {
+      "title": "O",
+      "body_html": "<p>(l)</p><p>Calculate the concentration of NaOH in the unknown, and if time permits, repeat the titration</p><p>several times.  How do your values for [NaOH] compare with each other and with other groups?</p>",
+      "order": 189
+    },
+    {
+      "title": "[NaOH] =",
+      "body_html": "<p>Summary of Student Results from previous year for reference.</p><p>STANDARDIZATION OF NaOH (INTRO LAB EXERCISE)</p>",
+      "order": 190
+    },
+    {
+      "title": "Concentrations of NaOH in moles/L*",
+      "body_html": "",
+      "order": 191
+    },
+    {
+      "title": "student group",
+      "body_html": "",
+      "order": 192
+    },
+    {
+      "title": "[NaOH] (mol/L)",
+      "body_html": "",
+      "order": 193
+    },
+    {
+      "title": "group mean",
+      "body_html": "",
+      "order": 194
+    },
+    {
+      "title": "group std dev",
+      "body_html": "",
+      "order": 195
+    },
+    {
+      "title": "group 95% CI",
+      "body_html": "<p>trial 1</p><p>trial 2</p><p>trial 3</p>",
+      "order": 196
+    },
+    {
+      "title": "(M)",
+      "body_html": "",
+      "order": 197
+    },
+    {
+      "title": "(M)",
+      "body_html": "",
+      "order": 198
+    },
+    {
+      "title": "(M)",
+      "body_html": "<p>1</p><p>0.1100</p><p>0.1288</p><p>0.1194</p>",
+      "order": 199
+    },
+    {
+      "title": "0.1194",
+      "body_html": "",
+      "order": 200
+    },
+    {
+      "title": "0.0094",
+      "body_html": "",
+      "order": 201
+    },
+    {
+      "title": "0.0233",
+      "body_html": "<p>2</p><p>0.1320</p><p>0.1314</p><p>0.1322</p>",
+      "order": 202
+    },
+    {
+      "title": "0.1319",
+      "body_html": "",
+      "order": 203
+    },
+    {
+      "title": "0.0004",
+      "body_html": "",
+      "order": 204
+    },
+    {
+      "title": "0.0010",
+      "body_html": "<p>3</p><p>0.1295</p><p>0.1329</p><p>0.1328</p>",
+      "order": 205
+    },
+    {
+      "title": "0.1317",
+      "body_html": "",
+      "order": 206
+    },
+    {
+      "title": "0.0019",
+      "body_html": "",
+      "order": 207
+    },
+    {
+      "title": "0.0048",
+      "body_html": "<p>4</p><p>0.1318</p><p>0.1326</p><p>0.1333</p>",
+      "order": 208
+    },
+    {
+      "title": "0.1326",
+      "body_html": "",
+      "order": 209
+    },
+    {
+      "title": "0.0008",
+      "body_html": "",
+      "order": 210
+    },
+    {
+      "title": "0.0019",
+      "body_html": "<p>5</p><p>0.1327</p><p>0.1337</p><p>0.1346</p>",
+      "order": 211
+    },
+    {
+      "title": "0.1337",
+      "body_html": "",
+      "order": 212
+    },
+    {
+      "title": "0.0010",
+      "body_html": "",
+      "order": 213
+    },
+    {
+      "title": "0.0024",
+      "body_html": "<p>6</p><p>0.1283</p><p>0.1326</p><p>0.1332</p>",
+      "order": 214
+    },
+    {
+      "title": "0.1314",
+      "body_html": "",
+      "order": 215
+    },
+    {
+      "title": "0.0027",
+      "body_html": "",
+      "order": 216
+    },
+    {
+      "title": "0.0066",
+      "body_html": "<p>7</p><p>0.1297</p><p>0.1323</p><p>0.1310</p>",
+      "order": 217
+    },
+    {
+      "title": "0.1310",
+      "body_html": "",
+      "order": 218
+    },
+    {
+      "title": "0.0013",
+      "body_html": "",
+      "order": 219
+    },
+    {
+      "title": "0.0032",
+      "body_html": "",
+      "order": 220
+    },
+    {
+      "title": "overall mean (M)",
+      "body_html": "",
+      "order": 221
+    },
+    {
+      "title": "0.1302",
+      "body_html": "",
+      "order": 222
+    },
+    {
+      "title": "std dev (M)",
+      "body_html": "",
+      "order": 223
+    },
+    {
+      "title": "0.0049",
+      "body_html": "",
+      "order": 224
+    },
+    {
+      "title": "95% CI (M)",
+      "body_html": "",
+      "order": 225
+    },
+    {
+      "title": "0.0045",
+      "body_html": "",
+      "order": 226
+    },
+    {
+      "title": "Final Reported [NaOH] = 0.130",
+      "body_html": "",
+      "order": 227
+    },
+    {
+      "title": "2",
+      "body_html": "",
+      "order": 228
+    },
+    {
+      "title": "+/- 0.005 moles/L",
+      "body_html": "<p>* from the titration of 25.00 mL of ~0.1 M sulfamic acid standard solutions using a</p><p>phenolphthalein endpoint</p>",
+      "order": 229
+    }
+  ],
+  "signatories": [],
+  "extracted_image_paths": [
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p0_0.jpeg",
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p15_0.jpeg",
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p18_0.jpeg",
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p20_0.jpeg",
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p21_0.jpeg",
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p21_1.jpeg",
+    "./output_images\\CHEM 311 lab manual Introduction 2018_p22_0.jpeg"
+  ],
+  "confidence_flags": [
+    "No signatory table found - verify manually."
+  ]
+}
