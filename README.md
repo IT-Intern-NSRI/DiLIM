@@ -24,6 +24,9 @@ only imports what you've approved.
 config.py            <- constants + secrets (from .env), imported by nearly everything
 schema.py             <- shared dataclasses (TextBlock, Section, Signatory, ManualDocument)
 app.py                 <- optional local Streamlit UI, imports both pipelines directly
+pods-repeater-issue-and-fix.md  <- why sections/signatories are separate
+                                    Pods Custom Post Types + Relationship
+                                    fields instead of repeater fields
 
 extraction/
   pdf_text_extractor.py   imports: schema
@@ -38,6 +41,12 @@ import_to_wp/
   wp_client.py             imports: (no local imports)
   media_uploader.py        imports: wp_client
   document_importer.py     imports: config, wp_client, media_uploader
+                            <- creates wp/v2/section and wp/v2/signatory
+                               posts first, then wp/v2/manual_document
+                               with "sections"/"signatories" set to the
+                               lists of related post IDs (Pods
+                               Relationship fields, not repeater rows -
+                               see pods-repeater-issue-and-fix.md)
   run_import.py            imports: config, wp_client, document_importer  <- entry point
 
 wordpress_theme/            <- lives in WordPress, not in this Python project
@@ -63,7 +72,9 @@ input_pdfs/*.pdf
    -> output_json/*.json + output_images/*.png
    -> [human review of confidence_flags]
    -> import_to_wp/run_import.py  (or app.py's "Import approved documents" button)
-   -> draft "Manual Document" posts on the live WordPress site
+   -> one wp/v2/section post per section, one wp/v2/signatory post per
+      signatory (published), then a draft "Manual Document" post whose
+      Relationship fields point at those posts' IDs
    -> [human review + publish in wp-admin]
    -> single-manual_document.php renders each one as a tabbed page
 ```
@@ -176,14 +187,56 @@ comfortably run WordPress for a lab-sized audience.
 
 ### Step 2: Install the Pods plugin (Plugins > Add New > search "Pods")
 
-   Using its admin UI (no code required):
-   - Create a custom post type with the slug **`manual_document`**.
-   - Add a **`sections`** repeater field group with sub-fields:
-     `section_title` (text), `section_body` (rich text/HTML),
-     `section_order` (number).
-   - Add a **`signatories`** repeater field group with sub-fields:
-     `signatory_name` (text), `signatory_title` (text),
-     `signatory_image` (media/file), `signatory_order` (number).
+> **Why three pods, not one:** Pods has no true "repeater field group" -
+> the field-group repeater that this project originally assumed (one
+> `sections` group and one `signatories` group, each with several
+> sub-fields, repeating as a bundle) does not exist in core Pods. Pods
+> only offers "Simple Repeatable Fields" (one field repeats *by itself*,
+> not a whole group), plus a paid "Panda Pods Repeater Field" add-on for
+> the real thing. The free, Pods-native workaround - and the one this
+> project uses - is to give Section and Signatory their own Custom Post
+> Type pods and relate them to `manual_document` with Relationship
+> fields. See `pods-repeater-issue-and-fix.md` in this repo for the full
+> diagnosis if you're curious why.
+
+Using the Pods admin UI (no code required), create **three pods** in
+this order:
+
+1. **`manual_document`** - Custom Post Type, public (this is the page
+   staff actually browse to). Fields:
+   - `doc_number` (text)
+   - any other top-level document fields you want (title/revision/date
+     etc. - `doc_title` maps to the native WP post title, so it doesn't
+     need its own Pods field).
+   - `sections` - **Relationship** field, related pod = `section`,
+     allow **multiple** related items (unlimited).
+   - `signatories` - **Relationship** field, related pod = `signatory`,
+     allow **multiple** related items (unlimited).
+
+2. **`section`** - Custom Post Type. On the pod's **Advanced Options**,
+   set **not public** and exclude it from search - these posts are pure
+   data records, only ever displayed *through* a parent
+   `manual_document` via the relationship field above, never browsed to
+   directly (no single-post template needed). Under **REST API**, turn
+   on **"Show in REST"** so `import_to_wp/` can create them
+   (`rest_base` can stay as the pod's default). Fields:
+   - `section_title` (text)
+   - `section_body` (rich text/HTML/WYSIWYG)
+   - `section_order` (number)
+
+3. **`signatory`** - Custom Post Type, same **not public** / excluded-
+   from-search / **REST API enabled** settings as `section`. Fields:
+   - `signatory_name` (text)
+   - `signatory_title` (text)
+   - `signatory_image` (media/file)
+   - `signatory_order` (number)
+
+Then go back to **`manual_document`** and add the two Relationship
+fields described in step 1 (`sections` -> `section` pod, `signatories`
+-> `signatory` pod), if you haven't already - Pods needs the `section`
+and `signatory` pods to exist first before you can point a Relationship
+field at them.
+
 ### Step 3: Copy the theme files
 
 Copy `wordpress_theme/` into your active theme's folder (so
@@ -320,6 +373,27 @@ wants a shared, multi-user tool, this would need a real backend (job
 queue, per-user access control, and likely a small database instead of
 the flat `output_json/` folder) rather than just deploying this
 Streamlit app as-is.
+
+- **Import fails partway through with "Created N section/signatory
+  post(s) ... but failed to create the parent manual_document post"**:
+  the `section`/`signatory` child posts for that document were already
+  created on the live site before the failure, and now have no parent -
+  the error message lists their `post_type/id` pairs. Either delete them
+  by hand in wp-admin (they're `publish`-status but not public, so they
+  won't show up in the normal post list - use *Pods Admin > Edit Section*
+  / *Edit Signatory*, or `wp/v2/section/<id>` with `DELETE` via
+  `WPClient.delete()`), or fix the underlying cause and re-run the import
+  for that one document (this will create a fresh set of children rather
+  than reusing the orphans, so clean up the old ones either way).
+- **A document's tabs/signature block are empty on the front end even
+  though the import reported success**: check that the `section`/
+  `signatory` pods actually have **"Show in REST"** turned on - if the
+  REST API can't see them, `import_to_wp/` will fail loudly when trying
+  to `POST` to them, but if a *relationship query* silently excludes them
+  (e.g. because they ended up `draft` instead of `publish` - see
+  `config.WP_CHILD_POST_STATUS`) the parent post will just render with
+  no tabs and no obvious error. Double-check the child posts' status in
+  wp-admin if this happens.
 
 ## Troubleshooting
 

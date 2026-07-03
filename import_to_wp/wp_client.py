@@ -104,6 +104,30 @@ class WPClient:
         response.raise_for_status()
         return response.json()
 
+    def delete(self, endpoint: str, force: bool = True) -> Dict[str, Any]:
+        """
+        Input: endpoint (str) - REST path to a single object, e.g.
+               "wp/v2/section/123".
+               force (bool) - if True, bypass Trash and delete
+               permanently (the default REST behavior for most custom
+               post types unless they don't support Trash at all). Used
+               by document_importer.py to roll back orphaned
+               section/signatory posts if a manual_document import fails
+               partway through.
+        Output: dict - the parsed JSON response body describing the
+                deleted object.
+
+        Pseudocode:
+        1. url = f"{self.base_url}/wp-json/{endpoint}".
+        2. response = self.session.delete(url, params={"force": force}).
+        3. response.raise_for_status().
+        4. Return response.json().
+        """
+        url = f"{self.base_url}/wp-json/{endpoint}"
+        response = self.session.delete(url, params={"force": force})
+        response.raise_for_status()
+        return response.json()
+
     def post_file(self, endpoint: str, file_path: str, filename: str) -> Dict[str, Any]:
         """
         Input: endpoint (str) - REST path for uploads, typically

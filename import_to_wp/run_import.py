@@ -13,7 +13,7 @@ import os
 
 import config
 from import_to_wp.wp_client import WPClient
-from import_to_wp.document_importer import import_single_document
+from import_to_wp.document_importer import import_single_document, DocumentImportError
 
 
 def main() -> None:
@@ -60,6 +60,13 @@ def main() -> None:
             post_id = import_single_document(client, json_path)
             successes.append((json_path, post_id))
             print(f"  Created draft post (id={post_id}).")
+        except DocumentImportError as e:
+            failures.append((json_path, str(e)))
+            print(f"  Failed: {e}")
+            print(
+                "  Orphaned child posts (no parent - clean up manually): "
+                + ", ".join(f"{ptype}/{pid}" for ptype, pid in e.orphaned_child_posts)
+            )
         except Exception as e:
             failures.append((json_path, str(e)))
             print(f"  Failed: {e}")

@@ -17,7 +17,7 @@ import streamlit as st
 import config
 from extraction.document_builder import build_document, document_to_json, save_json
 from import_to_wp.wp_client import WPClient
-from import_to_wp.document_importer import import_single_document
+from import_to_wp.document_importer import import_single_document, DocumentImportError
 
 
 st.set_page_config(page_title="Lab Manual Digitization", layout="wide")
@@ -136,5 +136,9 @@ if st.button("Import approved documents", disabled=(len(approved) == 0 or not wp
         try:
             post_id = import_single_document(client, json_path)
             st.success(f"{os.path.basename(json_path)} -> created draft post (id={post_id})")
+        except DocumentImportError as e:
+            st.error(f"{os.path.basename(json_path)} -> failed: {e}")
+            orphan_list = ", ".join(f"{ptype}/{pid}" for ptype, pid in e.orphaned_child_posts)
+            st.warning(f"Orphaned child posts (no parent - clean up manually): {orphan_list}")
         except Exception as e:
             st.error(f"{os.path.basename(json_path)} -> failed: {e}")
