@@ -213,23 +213,41 @@ this order:
    - `signatories` - **Relationship** field, related pod = `signatory`,
      allow **multiple** related items (unlimited).
 
-2. **`section`** - Custom Post Type. On the pod's **Advanced Options**,
-   set **not public** and exclude it from search - these posts are pure
-   data records, only ever displayed *through* a parent
+2. **`section`** - Custom Post Type. On the pod's **Advanced Options**
+   tab, set **not public** and exclude it from search - these posts are
+   pure data records, only ever displayed *through* a parent
    `manual_document` via the relationship field above, never browsed to
-   directly (no single-post template needed). Under **REST API**, turn
-   on **"Show in REST"** so `import_to_wp/` can create them
-   (`rest_base` can stay as the pod's default). Fields:
+   directly (no single-post template needed). Fields:
    - `section_title` (text)
    - `section_body` (rich text/HTML/WYSIWYG)
    - `section_order` (number)
 
 3. **`signatory`** - Custom Post Type, same **not public** / excluded-
-   from-search / **REST API enabled** settings as `section`. Fields:
+   from-search setting as `section`. Fields:
    - `signatory_name` (text)
    - `signatory_title` (text)
    - `signatory_image` (media/file)
    - `signatory_order` (number)
+
+**Turn on REST API access for all three pods** (this is what
+`import_to_wp/` needs to POST to them - it's easy to miss because it's
+not on the Advanced Options tab). For **each** of `manual_document`,
+`section`, and `signatory`:
+   - Open the pod in Pods Admin and click its own **REST API** tab
+     (a top-level tab next to "Manage Fields," "Labels," and "Advanced
+     Options" - not a checkbox buried inside another tab).
+   - Click **Enable** to turn on REST API support for that content
+     type. This exposes the standard `wp/v2/<pod name>` route (`section`
+     -> `wp-json/wp/v2/section`, etc.) - the **REST Base** field that
+     appears once enabled controls that route name and can stay as the
+     pod's default.
+   - Enabling the route alone does **not** expose the pod's own custom
+     fields (`section_title`, `signatory_image`, etc.) through it - on
+     the same tab, also check **"Show all fields in REST API"** (or, if
+     you'd rather be selective, leave that off and instead open each
+     individual field's own **REST API** sub-tab in the field editor and
+     enable it there). Without this, POSTs to `fields.section_title` and
+     friends will silently be ignored.
 
 Then go back to **`manual_document`** and add the two Relationship
 fields described in step 1 (`sections` -> `section` pod, `signatories`
@@ -386,14 +404,23 @@ Streamlit app as-is.
   for that one document (this will create a fresh set of children rather
   than reusing the orphans, so clean up the old ones either way).
 - **A document's tabs/signature block are empty on the front end even
-  though the import reported success**: check that the `section`/
-  `signatory` pods actually have **"Show in REST"** turned on - if the
-  REST API can't see them, `import_to_wp/` will fail loudly when trying
-  to `POST` to them, but if a *relationship query* silently excludes them
-  (e.g. because they ended up `draft` instead of `publish` - see
-  `config.WP_CHILD_POST_STATUS`) the parent post will just render with
-  no tabs and no obvious error. Double-check the child posts' status in
-  wp-admin if this happens.
+  though the import reported success**: this is almost always the
+  `config.WP_CHILD_POST_STATUS` / relationship-query issue, not REST -
+  if a `section`/`signatory` post ended up `draft` (e.g. you changed
+  `WP_CHILD_POST_STATUS`), Pods' relationship query can silently exclude
+  drafts, so the parent renders with no tabs and no obvious error.
+  Double-check the child posts' status in wp-admin if this happens.
+- **`POST wp/v2/section` (or `signatory`) succeeds but `section_title`/
+  `signatory_image`/etc. don't actually save**: the pod's REST API route
+  is enabled but its fields aren't exposed for writing through it. On
+  that pod's own **REST API** tab in Pods Admin, check **"Show all
+  fields in REST API"** (or enable each field individually on its own
+  REST API sub-tab in the field editor) - see Step 2 above.
+- **A `POST` to `wp/v2/section`, `wp/v2/signatory`, or
+  `wp/v2/manual_document` returns 404 or "rest_no_route"**: that pod's
+  REST API support itself isn't enabled yet. Open the pod in Pods Admin,
+  go to its own **REST API** tab (not Advanced Options), and click
+  **Enable** - see Step 2 above.
 
 ## Troubleshooting
 
