@@ -43,7 +43,12 @@ def main() -> None:
        and list the failed filenames with their error messages so a
        human can retry or fix them individually.
     """
-    client = WPClient(config.WP_BASE_URL, config.WP_USERNAME, config.WP_APP_PASSWORD)
+    client = WPClient(
+        config.WP_BASE_URL,
+        config.WP_USERNAME,
+        config.WP_APP_PASSWORD,
+        verify_ssl=config.WP_VERIFY_SSL,
+    )
     json_paths = glob.glob(os.path.join(config.OUTPUT_JSON_DIR, "*.json"))
 
     successes = []

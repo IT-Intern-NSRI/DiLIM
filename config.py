@@ -28,6 +28,18 @@ WP_BASE_URL = os.getenv("WP_BASE_URL")
 WP_USERNAME = os.getenv("WP_USERNAME")
 WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
 
+# Whether to verify the WordPress site's TLS certificate. Leave this at the
+# default (true) for any real host, including the Oracle Cloud VM setup in
+# the README, once it has a real Let's Encrypt certificate. Only set this to
+# "false" in .env when pointing at a LocalWP (https://*.local) site whose
+# self-signed certificate you have not added to your system's trust store -
+# see the "Local development with LocalWP" section of the README.
+WP_VERIFY_SSL = os.getenv("WP_VERIFY_SSL", "true").strip().lower() not in (
+    "false",
+    "0",
+    "no",
+)
+
 # Must match the custom post type slug registered in WordPress via Pods
 # (Pods Admin > Add New Pod > "manual_document").
 WP_DOCUMENT_POST_TYPE = "manual_document"

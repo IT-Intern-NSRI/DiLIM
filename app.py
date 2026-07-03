@@ -34,6 +34,17 @@ wp_username = st.sidebar.text_input("Username", value=config.WP_USERNAME or "")
 wp_app_password = st.sidebar.text_input(
     "Application Password", value=config.WP_APP_PASSWORD or "", type="password"
 )
+wp_verify_ssl = st.sidebar.checkbox(
+    "Verify SSL certificate",
+    value=config.WP_VERIFY_SSL,
+    help=(
+        "Leave this checked for any real host, including the Oracle "
+        "Cloud VM setup once it has a Let's Encrypt certificate. Only "
+        "uncheck it for a local LocalWP (https://*.local) site whose "
+        "self-signed certificate you haven't trusted in LocalWP's SSL "
+        "tab."
+    ),
+)
 if st.sidebar.button("Reset session"):
     st.session_state.processed_docs = {}
     st.rerun()
@@ -119,7 +130,7 @@ if not wp_base_url or not wp_username or not wp_app_password:
     st.info("Fill in the WordPress connection details in the sidebar to enable import.")
 
 if st.button("Import approved documents", disabled=(len(approved) == 0 or not wp_base_url)):
-    client = WPClient(wp_base_url, wp_username, wp_app_password)
+    client = WPClient(wp_base_url, wp_username, wp_app_password, verify_ssl=wp_verify_ssl)
     for info in approved:
         json_path = info["json_path"]
         try:

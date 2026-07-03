@@ -18,7 +18,13 @@ class WPClient:
     Represents one authenticated connection to a WordPress site's REST API.
     """
 
-    def __init__(self, base_url: str, username: str, app_password: str):
+    def __init__(
+        self,
+        base_url: str,
+        username: str,
+        app_password: str,
+        verify_ssl: bool = True,
+    ):
         """
         Input: base_url (str) - the site's root URL, e.g.
                "https://labname.university.edu" (no trailing slash).
@@ -27,21 +33,40 @@ class WPClient:
                app_password (str) - the Application Password string
                generated from WordPress admin (Users > Profile >
                Application Passwords).
+               verify_ssl (bool) - whether to verify the site's TLS
+               certificate. Defaults to True (always verify) and should
+               stay True for any real host. Only pass False for a local
+               LocalWP (https://*.local) site whose self-signed
+               certificate hasn't been added to your system's trust
+               store - see config.WP_VERIFY_SSL / the README.
         Output: None (constructor). Sets self.base_url and a
                 self.session (requests.Session) pre-configured with the
-                Basic Auth header built from username:app_password.
+                Basic Auth header built from username:app_password and
+                the requested certificate-verification behavior.
 
         Pseudocode:
         1. Store base_url with any trailing slash stripped.
         2. token = base64.b64encode(f"{username}:{app_password}"
            .encode()).decode().
         3. self.session = requests.Session(); set
-           self.session.headers["Authorization"] = f"Basic {token}".
+           self.session.headers["Authorization"] = f"Basic {token}";
+           set self.session.verify = verify_ssl.
         """
         self.base_url = base_url.rstrip("/")
         token = base64.b64encode(f"{username}:{app_password}".encode()).decode()
         self.session = requests.Session()
         self.session.headers["Authorization"] = f"Basic {token}"
+        self.session.verify = verify_ssl
+
+        if not verify_ssl:
+            # Silence the per-request InsecureRequestWarning that urllib3
+            # would otherwise print for every call - the caller has
+            # already made an explicit, informed choice to disable
+            # verification (LocalWP self-signed cert), so the warning
+            # would just be noise here.
+            from urllib3.exceptions import InsecureRequestWarning
+
+            requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
     def get(self, endpoint: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """
